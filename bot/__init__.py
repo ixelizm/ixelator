@@ -20,4 +20,4 @@ for file, content in data.items():
   with open(f"bot/modules/{file}.py", "w") as f:
     f.write(content)
   print(file, "Plugini Yüklendi!")
-ixel.plugins = dict(root="ixelator/modules")
+ixel.plugins = dict(root="bot/modules")
