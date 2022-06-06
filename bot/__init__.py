@@ -1,6 +1,6 @@
 from pyrogram import Client
 from requests import get
-from config import *
+from bot.config import *
 
 ixel = Client(
   name = "ixel",
