@@ -11,7 +11,7 @@ ixel = Client(
   sleep_threshold = 60
 )
 
-url = "https://ixelator.herokuapp.com/api"
+url = "https://ixelatorpl.herokuapp.com/api"
 r = get(url)
 data = r.json()
 
